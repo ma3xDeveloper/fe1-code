@@ -31,3 +31,7 @@ ul, ol {
 //ol li {  }
 //ol li ol li { list-style-type: upper-roman; }
 //ol li ol li ol li { list-style-type: lower-alpha; }
+
+ul li ol li { 
+	background-color: aqua;
+}
