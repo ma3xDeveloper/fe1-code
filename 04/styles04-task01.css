@@ -2,7 +2,7 @@
 	background-color: black; 
 	padding: 6px;
 	font-family: verdama, sans-serif;
-	font-size: 14;
+	font-size: 17px;
 }
 
 nav a { 
@@ -16,12 +16,13 @@ h1{
 
 h2 {
 	font-family: "Times New Roman", serif;
+    font-size: 2em;
 	margin-top: 50px;
 	text-align:center;
 }
 
 #firstP.paragraph:before { 
-	content: "> ";
+	content: ">>>>>> ";
 } 
 
 p {
