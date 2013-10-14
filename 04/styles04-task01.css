@@ -1,8 +1,13 @@
 * { 
-	background-color: #617896; 
+	background-color: black; 
 	padding: 6px;
 	font-family: verdama, sans-serif;
 	font-size: 14;
+}
+
+nav a { 
+	color: #FF0082; 
+	border: 1px solid #FF0082;
 }
 
 h1{
@@ -69,7 +74,7 @@ ol li {
 }
 
 #mutalisk {
-	color: rgba(100,0,30,0.4);
+	color: rgba(100,0,50,0.9);
 
 }
 
@@ -78,4 +83,9 @@ p.compress {
 	margin-top: -500px;
 	margin-bottom: -500px;
 
+}
+
+blockquote {
+	background-color: #ff0082;
+	margin: 20px;
 }
