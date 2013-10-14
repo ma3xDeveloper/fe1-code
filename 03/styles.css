@@ -5,6 +5,10 @@
 	font-size: 14;
 }
 
+body * { 
+	color: white; 
+}
+
 h1{
 	font-size: 50px;
 }
@@ -15,29 +19,17 @@ h2 {
 	text-align:center;
 }
 
-#firstP.paragraph:before { 
-	content: "> ";
-} 
-
-p {
-	color: red;
-}
-
-body * { 
-	color: white; 
-}
-
-
-
-p:first-letter {
-	font-size:1.8em; color: red;
-}
-
 h2:first-line {
 	background-color: red;
 }
 
+#firstP.paragraph:before { 
+	content: "> ";
+} 
 
+p:first-letter {
+	font-size:1.8em; color: red;
+}
 
 ul li li {
 	color: #FFFF00;
@@ -47,6 +39,11 @@ ul li li a {
 	color: #008D00;
 	background-color: yellow;
 	margin-left: 35px;
+}
+
+ol li {
+	list-style: circle;
+	margin-left: 150px;
 }
 
 a.link {
@@ -63,19 +60,14 @@ a:hover {
 	color: #0000FF; 
 }
 
-ol li {
-	list-style: circle;
-	margin-left: 150px;
-}
+
 
 #mutalisk {
 	color: rgba(100,0,30,0.4);
-
 }
 
 p.compress {
 	padding: 500px;
 	margin-top: -500px;
 	margin-bottom: -500px;
-
 }

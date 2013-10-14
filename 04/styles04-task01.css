@@ -20,6 +20,10 @@ h2 {
 	text-align:center;
 }
 
+h2:first-line {
+	background-color: red;
+}
+
 #firstP.paragraph:before { 
 	content: "> ";
 } 
@@ -28,21 +32,17 @@ p {
 	color: red;
 }
 
-body * { 
-	color: white; 
-}
-
-
-
 p:first-letter {
 	font-size:1.8em; color: red;
 }
 
-h2:first-line {
-	background-color: red;
+p a {
+	background-color: #FFA400;
 }
 
-
+body * { 
+	color: white; 
+}
 
 ul li li {
 	color: #FFFF00;
@@ -54,35 +54,29 @@ ul li li a {
 	margin-left: 35px;
 }
 
+ol li {
+	list-style: circle;
+	margin-left: 150px;
+}
+
 a.link {
 	color: #008D00;
 	background-color: yellow;
 	margin-left: 80px;
 }
 
-p a {
-	background-color: #FFA400;
-}
-
 a:hover { 
 	color: #0000FF; 
 }
 
-ol li {
-	list-style: circle;
-	margin-left: 150px;
-}
-
 #mutalisk {
 	color: rgba(100,0,50,0.9);
-
 }
 
 p.compress {
 	padding: 500px;
 	margin-top: -500px;
 	margin-bottom: -500px;
-
 }
 
 blockquote {
