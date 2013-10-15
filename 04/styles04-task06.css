@@ -3,7 +3,12 @@
     color: white;
     font-size: 14px;
     line-height: 19px;
+}
 
+h1 {
+    padding-top:40px;
+    font-size: 5em;
+    text-align:center;
 }
 
 p {
@@ -16,8 +21,12 @@ p {
 }
 
 * body {
-        background-color: black;
-        background-image:url("img/wall2.jpg");
-        background-position: top center;
-        background-repeat:no-repeat;
+    background-color: black;
+    background-image:url("img/wall2.jpg");
+    background-position: top center;
+    background-repeat:no-repeat;
+}
+
+#topmenu {
+    text-align:center;
 }
