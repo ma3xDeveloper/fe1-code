@@ -1,0 +1,23 @@
+* {
+    font-family: Verdana, Arial, sans-serif;
+    color: white;
+    font-size: 14px;
+    line-height: 19px;
+
+}
+
+p {
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-right:50px;
+    padding-left:50px;
+
+    word-break:break-all;
+}
+
+* body {
+        background-color: black;
+        background-image:url("img/wall2.jpg");
+        background-position: top center;
+        background-repeat:no-repeat;
+}
