@@ -1,0 +1,19 @@
+* { padding: 0; margin: 0; }
+
+#container { width: 900px; margin: 0 auto; background: #000; color: white}
+
+header { padding: 25px; background: #790000; }
+
+section { height: 800px; padding: 5px; background: black; }
+
+#content, #sidebar-left, #sidebar-right { padding: 0; float: left; overflow: auto; word-break:break-all}
+
+#sidebar-left { background: #308603; width: 20%; height: 100%;}
+#content { background: #f00; width: 65%; height: 100%;}
+#sidebar-right { background: #ffd800; width: 15%; height: 100%;}
+
+#content .inner,
+#sidebar-left .inner,
+#sidebar-right .inner { padding: 15px; }
+
+footer { padding: 25px; background: #682626; }

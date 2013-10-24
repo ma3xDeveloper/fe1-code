@@ -1,0 +1,44 @@
+ul{
+	list-style-type: none;
+	background-color: black;
+    text-align: center
+}
+
+ul li {
+	display: inline-block;
+	padding:0;
+	margin: 5px;
+	border-right: 2px solid white;
+}
+
+ul li:last-of-type {
+	border-right: none;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+}
+
+ul li a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+ul li ul {
+	display: none;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	background: gray;
+}
+
+ul li:hover ul {
+	display: block;	
+}
+
+ul li ul li {
+	display: block;
+	border:none;
+}

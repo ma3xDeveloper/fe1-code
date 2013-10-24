@@ -1,0 +1,17 @@
+* { padding: 0; margin: 0; }
+
+#container { width: 900px; margin: 0 auto; background: #000; color: white}
+
+header { padding: 25px; background: #790000; }
+
+section { height: 800px; padding: 5px; background: black; }
+
+#content, #sidebar { padding: 0; float: left; overflow: auto; word-break:break-all}
+
+#content { background: #f00; width: 30%; height: 100%;}
+#sidebar { background: #ffd800; width: 70%; height: 100%;}
+
+#content .inner,
+#sidebar .inner { padding: 15px; }
+
+footer { padding: 25px; background: #682626; }
